@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace Entidades
 {
     public class Enfermero
-    {
+    {   
         public int Cuil { get; set; }
     }
 }
