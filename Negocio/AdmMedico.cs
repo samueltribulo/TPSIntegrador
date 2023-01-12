@@ -19,51 +19,51 @@ namespace Negocio
                 Telefono = 123456789,
                 Email = "emailfalso@gmail.com",
                 Matricula = "000H1",
-                Epecialidad = "Pediatra"
+                Especialidad = "Clinico"
             };
             Medico medico2 = new Medico()
             {
                 Apellido = "Juan",
                 Nombre = "Carlos II",
-                ID = 1,
+                ID = 2,
                 Domicilio = "Calle falsa 2",
                 Telefono = 123456788,
                 Email = "emailfalso2@gmail.com",
                 Matricula = "000H2",
-                Epecialidad = "Traumatologo"
+                Especialidad = "Traumatologo"
             };
             Medico medico3 = new Medico()
             {
                 Apellido = "Juan",
                 Nombre = "Carlos III",
-                ID = 1,
+                ID = 3,
                 Domicilio = "Calle falsa 3",
                 Telefono = 123456787,
                 Email = "emailfalso3@gmail.com",
                 Matricula = "000H3",
-                Epecialidad = "Clinico"
+                Especialidad = "Clinico"
             };
             Medico medico4 = new Medico()
             {
                 Apellido = "Juan",
                 Nombre = "Carlos IV",
-                ID = 1,
+                ID = 4,
                 Domicilio = "Calle falsa 4",
                 Telefono = 12345676,
                 Email = "emailfalso4@gmail.com",
                 Matricula = "000H4",
-                Epecialidad = "Odontologo"
+                Especialidad = "Odontologo"
             };
             Medico medico5 = new Medico()
             {
                 Apellido = "Juan",
                 Nombre = "Carlos V",
-                ID = 1,
+                ID = 5,
                 Domicilio = "Calle falsa 5",
                 Telefono = 123456785,
                 Email = "emailfalso5@gmail.com",
                 Matricula = "000H5",
-                Epecialidad = "Cirujano"
+                Especialidad = "Cirujano"
             };
 
             medicos.Add(medico);

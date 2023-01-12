@@ -14,16 +14,34 @@ namespace Presentacion
         {
             gridPacientes.DataSource = AdmPaciente.Listar();
             gridMedicos.DataSource = AdmMedico.Listar();
+
+            List<Habitacion> listaHabitaciones = AdmHabitacion.Listar();
+
+            foreach (Habitacion habitacion in listaHabitaciones)
+            {
+                listHabitaciones.Items.Add("Numero Habitacion: "+ habitacion.Numero + ", Estado: " + habitacion.Estado);
+            }
+
+            List<Medico> listaMedicos = AdmMedico.Listar();
+
+            foreach (Medico medico in listaMedicos)
+            {
+                if (medico.Especialidad == "Clinico") 
+                {
+                    listMedicos.Items.Add("Medico: "+medico.Nombre+", Especialidad: "+medico.Especialidad);
+                }
+                
+            }
         }
 
         private void listHabitaciones_SelectedIndexChanged(object sender, EventArgs e)
         {
-            List<Habitacion> listaHabitaciones = AdmHabitacion.Listar();
+  
+        }
 
-            foreach (Habitacion habitacion in listaHabitaciones) 
-            {
-                listHabitaciones.Items.Add($"Habitaciones: {habitacion.Numero.ToString()},{habitacion.Estado} ");
-            }
+        private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

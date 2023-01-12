@@ -62,24 +62,24 @@
             this.listMedicos.ItemHeight = 20;
             this.listMedicos.Location = new System.Drawing.Point(572, 58);
             this.listMedicos.Name = "listMedicos";
-            this.listMedicos.Size = new System.Drawing.Size(150, 104);
+            this.listMedicos.Size = new System.Drawing.Size(337, 104);
             this.listMedicos.TabIndex = 2;
             // 
             // listHabitaciones
             // 
             this.listHabitaciones.FormattingEnabled = true;
             this.listHabitaciones.ItemHeight = 20;
-            this.listHabitaciones.Location = new System.Drawing.Point(572, 191);
+            this.listHabitaciones.Location = new System.Drawing.Point(572, 250);
             this.listHabitaciones.Name = "listHabitaciones";
-            this.listHabitaciones.Size = new System.Drawing.Size(177, 144);
+            this.listHabitaciones.Size = new System.Drawing.Size(337, 104);
             this.listHabitaciones.TabIndex = 3;
-            this.listHabitaciones.SelectedIndexChanged += new System.EventHandler(this.listHabitaciones_SelectedIndexChanged);
+            this.listHabitaciones.SelectedIndexChanged += new System.EventHandler(this.listBox1_SelectedIndexChanged);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(1014, 450);
             this.Controls.Add(this.listHabitaciones);
             this.Controls.Add(this.listMedicos);
             this.Controls.Add(this.gridMedicos);

@@ -9,7 +9,7 @@ namespace Entidades
     public class Medico:Persona
     {
         public string Matricula { get; set; }
-        public string Epecialidad { get; set; }
+        public string Especialidad { get; set; }
 
     }
 }
