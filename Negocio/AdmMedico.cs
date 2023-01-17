@@ -14,7 +14,7 @@ namespace Negocio
             {
                 Apellido = "Juan",
                 Nombre = "Carlos",
-                Id = 1,
+                ID = 1,
                 Domicilio = "Calle falsa 1",
                 Telefono = 123456789,
                 Email = "emailfalso@gmail.com",
@@ -25,7 +25,7 @@ namespace Negocio
             {
                 Apellido = "Juan",
                 Nombre = "Carlos II",
-                Id = 2,
+                ID = 2,
                 Domicilio = "Calle falsa 2",
                 Telefono = 123456788,
                 Email = "emailfalso2@gmail.com",
@@ -36,7 +36,7 @@ namespace Negocio
             {
                 Apellido = "Juan",
                 Nombre = "Carlos III",
-                Id = 3,
+                ID = 3,
                 Domicilio = "Calle falsa 3",
                 Telefono = 123456787,
                 Email = "emailfalso3@gmail.com",
@@ -47,7 +47,7 @@ namespace Negocio
             {
                 Apellido = "Juan",
                 Nombre = "Carlos IV",
-                Id = 4,
+                ID = 4,
                 Domicilio = "Calle falsa 4",
                 Telefono = 12345676,
                 Email = "emailfalso4@gmail.com",
@@ -58,7 +58,7 @@ namespace Negocio
             {
                 Apellido = "Juan",
                 Nombre = "Carlos V",
-                Id = 5,
+                ID = 5,
                 Domicilio = "Calle falsa 5",
                 Telefono = 123456785,
                 Email = "emailfalso5@gmail.com",
