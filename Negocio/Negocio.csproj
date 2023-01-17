@@ -7,7 +7,11 @@
   </PropertyGroup>
 
   <ItemGroup>
+<<<<<<< HEAD
     <ProjectReference Include="..\Datos\Dac.csproj" />
+=======
+    <ProjectReference Include="..\Datos\Datos.csproj" />
+>>>>>>> parent of 9b39928 (Agregada documentación)
     <ProjectReference Include="..\Entidades\Entidades.csproj" />
   </ItemGroup>
 

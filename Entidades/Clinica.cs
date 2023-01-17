@@ -6,28 +6,13 @@ using System.Threading.Tasks;
 
 namespace Entidades
 {
-    [Table("Clinicas")]
     public class Clinica
     {
-        public int Id { get; set; }
-        [Column(TypeName = "varchar")]
-        [StringLength(50)]
-        [Required]
+        public string Id { get; set; }
         public string Nombre { get; set; }
-        [Column(TypeName = "varchar")]
-        [StringLength(100)]
         public string Domicilio { get; set; }
-        [Column(TypeName = "varchar")]
-        [StringLength(20)]
         public string Telefono { get; set; }
-        [Column(TypeName = "varchar")]
-        [StringLength(30)]
         public string Email { get; set; }
-
-        public Director Director { get; set; }
-
-        public List<Habitacion> Habitaciones { get; set; }
-
 
     }
 }
