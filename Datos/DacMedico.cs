@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Entidades;
 
-namespace Datos
+namespace Dac
 {
     public static class DacMedico
     {
@@ -21,7 +21,7 @@ namespace Datos
         }
         public static int Insert(Medico medico)
         {
-            //TODO: Falta implementar codigo para hacer un insert en la tabla Alumno
+            //TODO: Falta implementar codigo para hacer un insert en la tabla medico
             return 0;
         }
 

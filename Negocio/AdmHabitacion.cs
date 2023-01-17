@@ -13,11 +13,11 @@ namespace Negocio
         {
             List<Habitacion> listaHabitacion = new List<Habitacion>();
 
-            listaHabitacion.Add(new Habitacion() { ID = 1, Numero = 1, Estado = "Ocupado" });
-            listaHabitacion.Add(new Habitacion() { ID = 2, Numero = 2, Estado = "Libre" });
-            listaHabitacion.Add(new Habitacion() { ID = 3, Numero = 3, Estado = "Libre" });
-            listaHabitacion.Add(new Habitacion() { ID = 4, Numero = 4, Estado = "Ocupado" });
-            listaHabitacion.Add(new Habitacion() { ID = 5, Numero = 5, Estado = "Libre" });
+            listaHabitacion.Add(new Habitacion() { Id = 1, Numero = 1, Estado = "Ocupado" });
+            listaHabitacion.Add(new Habitacion() { Id = 2, Numero = 2, Estado = "Libre" });
+            listaHabitacion.Add(new Habitacion() { Id = 3, Numero = 3, Estado = "Libre" });
+            listaHabitacion.Add(new Habitacion() { Id = 4, Numero = 4, Estado = "Ocupado" });
+            listaHabitacion.Add(new Habitacion() { Id = 5, Numero = 5, Estado = "Libre" });
 
             return listaHabitacion;
         }
